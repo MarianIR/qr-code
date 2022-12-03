@@ -1,0 +1,53 @@
+@import "variables", "reset";
+
+body {
+  width: 100%;
+  background-color: $primaryColor2;
+}
+
+.main-section {
+  display: block;
+  width: 90%;
+  max-width: 26rem;
+  padding: 1rem 0 2rem;
+  margin: 5rem auto;
+  background-color: $primaryColor1;
+  border-radius: 5%;
+  .qr-code {
+    display: block;
+    width: 90%;
+    max-width: 25rem;
+    height: auto;
+    margin: 0 auto 1rem;
+    border-radius: 5%;
+  }
+
+  .text-article {
+    width: 90%;
+    margin: 1rem auto;
+
+    .main-header {
+      text-align: center;
+      margin: 1rem auto;
+      font-size: 2rem;
+      color: $primaryColor4;
+    }
+    .paragraph {
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.5rem;
+      color: $primaryColor3;
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.5rem;
+  color: $primaryColor4;
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+}
